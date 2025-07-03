@@ -2,7 +2,8 @@
 handle_push_trigger = true
 push_commands = [
     "/describe",
-    "/review  --pr_reviewer.num_code_suggestions=0 --pr_reviewer.final_update_message=false",
+    "/review",
+    "/improve",
 ]
 
 [pr_reviewer]
